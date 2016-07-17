@@ -1,14 +1,38 @@
-body{
+html{
 	text-align: center;
-	background-color: papayawhip;
+}
+
+body{
+	background: linear-gradient(to bottom, #8e9eab , #eef2f3);
 	font-family: 'Helvetica';
+	padding: 3em;
 }
 
 ul{
-	padding: 0;
 	list-style-type: none;
+	padding: 0;
 }
 
 li{
 	margin-top: 1em;
+}
+
+img{
+	width: 40em;
+	height: 20em;
+	border: 3px solid black;
+}
+
+#projects{
+	background: linear-gradient(to left, #1e3c72 , #2a5298);
+	border: 1px solid black;
+	color: silver;
+}
+
+a{
+	color: orange;
+}
+
+h3{
+	color: papayawhip;
 }
